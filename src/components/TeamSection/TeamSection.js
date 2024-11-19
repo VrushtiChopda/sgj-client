@@ -18,7 +18,7 @@ const TeamSection = (props) => {
                     <div className="row">
                         <div className="col-lg-4 col-md-6">
                             <div className="team-item">
-                                <img src={team1} alt="Team"/>
+                                <img src={team1} alt="Team" />
                                 <div className="team-des">
                                     <h3>Ivet Houze</h3>
                                     <span>architect assistant </span>
@@ -27,7 +27,7 @@ const TeamSection = (props) => {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div className="team-item">
-                                <img src={team2} alt="Team"/>
+                                <img src={team2} alt="Team" />
                                 <div className="team-des">
                                     <h3>Joney vino</h3>
                                     <span>architect assistant </span>
@@ -36,7 +36,7 @@ const TeamSection = (props) => {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div className="team-item">
-                                <img src={team3} alt="Team"/>
+                                <img src={team3} alt="Team" />
                                 <div className="team-des">
                                     <h3>Maria Bill</h3>
                                     <span>architect assistant </span>

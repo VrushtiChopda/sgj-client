@@ -1,7 +1,12 @@
 import pro1 from '../images/jariThread/pro1.png'
 import pro2 from '../images/jariThread/pro2.jpeg'
 import pro3 from '../images/jariThread/pro3.png'
-
+import pro4 from '../images/jariThread/pro4.jpg'
+import pro5 from '../images/jariThread/pro5.jpg'
+import pro6 from '../images/jariThread/pro6.jpg'
+import pro7 from '../images/jariThread/pro7.jpg'
+import pro8 from '../images/jariThread/pro8.jpg'
+import pro9 from '../images/jariThread/pro9.jpg'
 
 import pSImg1 from '../images/apartment/apartment1.png'
 import pSImg2 from '../images/apartment/apartment2.png'
@@ -45,9 +50,9 @@ const Projects = [
     },
     {
         Id: '4',
-        pTitle: 'Furniture & Decor', 
-        slug: 'Furniture-&-Decor',
-        pImg:pro1,
+        pTitle: 'german', 
+        slug: 'german',
+        pImg:pro4,
         pSImg:pSImg1,
         ssIcon:sIcon1,
         des:'Aenean vehicula non mauris maximus elementum. Nulla facilisi.',
@@ -55,9 +60,9 @@ const Projects = [
     },
     {
         Id: '5',
-        pTitle: 'Exclusive Home Decor', 
-        slug: 'Exclusive-Home-Decor',
-        pImg:pro2,
+        pTitle: 'polyster', 
+        slug: 'polyster',
+        pImg:pro5,
         pSImg:pSImg2,
         ssIcon:sIcon2,
         des:'Aenean vehicula non mauris maximus elementum. Nulla facilisi.',
@@ -65,14 +70,45 @@ const Projects = [
     },
     {
         Id: '6',
-        pTitle: 'Modern Architecture', 
-        slug: 'Modern-Architecture',
-        pImg:pro3,
+        pTitle: 'viscose', 
+        slug: 'viscose',
+        pImg:pro6,
         pSImg:pSImg3,
         ssIcon:sIcon3,
         des:'Aenean vehicula non mauris maximus elementum. Nulla facilisi.',
         width:'140',
-    }
+    },
+    {
+        Id: '7',
+        pTitle: 'bobin dhaga', 
+        slug: 'bobin-dhaga',
+        pImg:pro7,
+        pSImg:pSImg3,
+        ssIcon:sIcon3,
+        des:'Aenean vehicula non mauris maximus elementum. Nulla facilisi.',
+        width:'120',
+    },
+    {
+        Id: '8',
+        pTitle: 'coding dori', 
+        slug: 'coding-dori',
+        pImg:pro8,
+        pSImg:pSImg3,
+        ssIcon:sIcon3,
+        des:'Aenean vehicula non mauris maximus elementum. Nulla facilisi.',
+        width:'130',
+    },
+    {
+        Id: '9',
+        pTitle: 'badla jari', 
+        slug: 'badla jari',
+        pImg:pro9,
+        pSImg:pSImg3,
+        ssIcon:sIcon3,
+        des:'Aenean vehicula non mauris maximus elementum. Nulla facilisi.',
+        width:'140',
+    },
+
 ]
 
 export default Projects;

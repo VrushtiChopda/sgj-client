@@ -8,16 +8,16 @@ import ServiceSection from '../../components/ServiceSection/ServiceSection';
 import FunFact from '../../components/FunFact';
 import TeamSection from '../../components/TeamSection/TeamSection';
 import VideoSection from '../../components/VideoSection/VideoSection';
-
+import about from '../../images/jariThread/about.jpg'
 const AboutPage = () => {
     return (
         <Fragment>
             <Navbar />
-            <PageTitle pageTitle={'About Us'} pagesub={'About'} />
-            <ServiceSection ptClass={'pt-100'}/>
+            <PageTitle pageTitle={'About Us'} pagesub={'About'} pageImage={about} />
+            <ServiceSection ptClass={'pt-100'} />
             <About2 />
             {/* <FunFact fClass={'style-two pt-165 pb-125 mb-0'}/> */}
-            <TeamSection/>
+            <TeamSection />
             {/* <VideoSection /> */}
             <Footer />
             <Scrollbar />

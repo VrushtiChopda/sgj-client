@@ -7,7 +7,7 @@ import abimg3 from '../../images/wp/wp-3.png'
 const About = (props) => {
 
     return (
-        <section id="about" className="wp-section pt-150 rmb-100" style={{ backgroundImage: `url(${Bg})` }}>
+        <section id="about" className="wp-section pt-150 rmb-100" >
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-7">
@@ -30,7 +30,7 @@ const About = (props) => {
                                 </h2>
                                 <h6>Unleash Your Creativity</h6>
                             </div>
-                            <img src={abimg3} alt="" />
+                            {/* <img src={abimg3} alt="" /> */}
                         </div>
                     </div>
                 </div>
