@@ -5,7 +5,6 @@ import Bg from '../../images/services/service-bg.jpg'
 
 
 
-
 const ServiceSection = (props) => {
 
     const ClickHandler = () => {

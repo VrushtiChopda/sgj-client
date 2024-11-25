@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React, { Fragment } from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import PageTitle from '../../components/pagetitle/PageTitle'
 import ServiceSection2 from '../../components/ServiceSection2/ServiceSection2';
@@ -6,18 +6,18 @@ import FaqSectionS2 from '../../components/FaqSectionS2/FaqSectionS2';
 import ContactSection from '../../components/ContactSection/ContactSection';
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Footer from '../../components/footer/Footer';
+import Services from '../../images/jariThread/services.png'
 
-
-const ServicePage =() => {
-    return(
+const ServicePage = () => {
+    return (
         <Fragment>
-            <Navbar hclass={'header-style-2'}/>
-            <PageTitle pageTitle={'Services'} pagesub={'Service'}/> 
+            <Navbar hclass={'header-style-2'} />
+            <PageTitle pageTitle={'Services'} pagesub={'Service'} pageImage={Services} />
             {/* <FaqSectionS2 /> */}
-            <ServiceSection2/>
+            <ServiceSection2 />
             <ContactSection />
-            <Footer/>
-            <Scrollbar/>
+            <Footer />
+            <Scrollbar />
         </Fragment>
     )
 };

@@ -13,7 +13,7 @@ const ProjectSectionS2 = (props) => {
         <section className="apartment-section s2 text-center">
             <div className="container">
                 <div className="section-title mb-75">
-                    <h2>Choose an <span className="thin">Product</span></h2>
+                    <h2>Choose a <span className="thin">Product</span></h2>
                     <p className='h4'>Pick Your Perfect Product</p>
                 </div>
                 <div className="apartment-carousel">

@@ -52,6 +52,9 @@ const Footer = (props) => {
                             <div className="contact-widget">
                                 <h3>Contact</h3>
                                 <h6>Find out all the ways to enjoy luxury residential life around the world.</h6>
+                                <h6>Branch 1 : </h6>
+                                <h6>A: 14/A, Miranda City, NYC T: 99 123 45 6970</h6>
+                                <h6>Branch 1 : </h6>
                                 <h6>A: 14/A, Miranda City, NYC T: 99 123 45 6970</h6>
                             </div>
                         </div>

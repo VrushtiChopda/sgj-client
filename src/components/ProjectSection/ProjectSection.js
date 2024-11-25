@@ -13,8 +13,8 @@ const ProjectSection = (props) => {
         <section className="apartment-section text-center mb-155">
             <div className="container">
                 <div className="section-title mb-75">
-                    <h2>Choose an <span className="thin">Product</span></h2>
-                    <p>At vero eos et accusamus et iusto odio</p>
+                    <h2>Choose a <span className="thin">Product</span></h2>
+                    <p>Explore Our Thread and Jari Collections</p>
                 </div>
                 <div className="apartment-carousel">
                     <div className="row">

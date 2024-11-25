@@ -26,7 +26,7 @@ const About2 = (props) => {
                                 </h2>
                                 <h6>Unleash Your Creativity</h6>
                             </div>
-                            <img src={abimg} alt="" />
+                            {/* <img src={abimg} alt="" /> */}
                         </div>
                     </div>
                 </div>
