@@ -16,7 +16,6 @@ import sIcon1 from '../images/apartment/icon1.png'
 import sIcon2 from '../images/apartment/icon2.png'
 import sIcon3 from '../images/apartment/icon3.png'
 
-
 const Projects = [
     {
         Id: '1',
@@ -82,7 +81,7 @@ const Projects = [
         Id: '7',
         pTitle: 'bobin dhaga', 
         slug: 'bobin-dhaga',
-        pImg:pro7,
+        pImg:'https://res.cloudinary.com/dchb1czwp/image/upload/v1732616780/bobin_buqq8n.jpg',
         pSImg:pSImg3,
         ssIcon:sIcon3,
         des:'Aenean vehicula non mauris maximus elementum. Nulla facilisi.',

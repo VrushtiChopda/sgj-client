@@ -2,8 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import MobileMenu from '../MobileMenu/MobileMenu'
 import Logo from '../../images/logo.png'
-
-
+import Logo1 from '../../images/logo1.jpg'
 const Header = (props) => {
     const [menuActive, setMenuState] = useState(false);
     const [SearchActive, setSearchState] = useState(false);
@@ -22,7 +21,7 @@ const Header = (props) => {
                 <div className="container">
                     <div className="top-inner">
                         <div className="logo-outer">
-                            <div className="logo"><Link onClick={ClickHandler} to="/"><img src={Logo} alt="Logo" /></Link></div>
+                            <div className="logo"><Link onClick={ClickHandler} to="/"><img src={Logo1} alt="Logo" /></Link></div>
                         </div>
 
                         <ul className="header-info">

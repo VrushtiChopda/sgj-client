@@ -9,10 +9,55 @@ const Contactpage = () => {
 
     return (
         <div>
-            <div className='mt-4 d-flex justify-content-center' >
+            <div className="mt-4 d-flex flex-wrap justify-content-center">
+                <div className="text-white m-4" style={{ backgroundColor: '#CA9C6A', flex: '1 1 300px', maxWidth: '400px' }}>
+                    <div>
+                        <iframe
+                            width="100%"
+                            height="350"
+                            frameBorder="0"
+                            scrolling="no"
+                            marginHeight="0"
+                            marginWidth="0"
+                            src="https://maps.google.com/maps?width=%20500&amp;height=600&amp;hl=en&amp;q=new%20GIDC,%20surat+(chocolate%20shop)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                        >
+                            <a href="https://www.gps.ie/">gps systems</a>
+                        </iframe>
+                    </div>
+                    <div className="text-center p-4">
+                        <h3>
+                            <i className="fa fa-map-marker"></i> Branch 1
+                        </h3>
+                        <h4>219 Bedford Street Birmingham, AL 35211</h4>
+                    </div>
+                </div>
+                <div className="text-white m-4" style={{ backgroundColor: '#CA9C6A', flex: '1 1 300px', maxWidth: '400px' }}>
+                    <div>
+                        <iframe
+                            width="100%"
+                            height="350"
+                            frameBorder="0"
+                            scrolling="no"
+                            marginHeight="0"
+                            marginWidth="0"
+                            src="https://maps.google.com/maps?width=%20500&amp;height=600&amp;hl=en&amp;q=new%20GIDC,%20surat+(chocolate%20shop)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                        >
+                            <a href="https://www.gps.ie/">gps systems</a>
+                        </iframe>
+                    </div>
+                    <div className="text-center p-4">
+                        <h3>
+                            <i className="fa fa-map-marker"></i> Branch 2
+                        </h3>
+                        <h4>219 Bedford Street Birmingham, AL 35211</h4>
+                    </div>
+                </div>
+            </div>
+        
+            {/* <div className='mt-4 d-flex justify-content-center' >
                 <div className='text-white m-4' style={{ backgroundColor: '#CA9C6A' }}>
                     <div>
-                        <iframe width={450} height={350} frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=%20500&amp;height=600&amp;hl=en&amp;q=new%20GIDC,%20surat+(chocolate%20shop)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps systems</a></iframe>
+                        <iframe width='100%' height={350} frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=%20500&amp;height=600&amp;hl=en&amp;q=new%20GIDC,%20surat+(chocolate%20shop)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps systems</a></iframe>
                     </div>
                     <div className='text-center p-4'>
                         <h3><i className="fa fa-map-marker"></i> Branch 1</h3>
@@ -21,14 +66,15 @@ const Contactpage = () => {
                 </div>
                 <div className='text-white m-4' style={{ backgroundColor: '#CA9C6A' }}>
                     <div>
-                        <iframe width={450} height={350} frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=%20500&amp;height=600&amp;hl=en&amp;q=new%20GIDC,%20surat+(chocolate%20shop)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps systems</a></iframe>
+                        <iframe width='100%' height={350} frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=%20500&amp;height=600&amp;hl=en&amp;q=new%20GIDC,%20surat+(chocolate%20shop)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps systems</a></iframe>
                     </div>
                     <div className='text-center p-4'>
                         <h3 ><i className="fa fa-map-marker"></i> Branch 2</h3>
                         <h4>219 Bedford Street Birmingham, AL 35211</h4>
                     </div>
                 </div>  
-            </div>
+            </div> */}
+
             {/* <div className='container my-4 text-white' style={{ backgroundColor: '#CA9C6A' }}>
                 <div className='row'>
                     <div className='col-6 p-0'>
