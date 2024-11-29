@@ -3,10 +3,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import pimg1 from '../../images/jariThread/pimg1-removebg-preview.png'
-import pimg2 from '../../images/jariThread/black-and-red-gaming_-_120x120-removebg-preview.png'
-import pimg3 from '../../images/jariThread/pimg3-removebg-preview.png'
-import pimg4 from '../../images/jariThread/images-removebg-preview.png'
-import pimg5 from '../../images/client/client5.png'
+import pimg2 from '../../images/jariThread/vplus.jpg'
+import pimg3 from '../../images/jariThread/jolly.jpg'
+import pimg4 from '../../images/jariThread/om.jpg'
+import pimg5 from '../../images/jariThread/gt-removebg-preview.png'
 import { Link } from "react-router-dom";
 
 const partners = [

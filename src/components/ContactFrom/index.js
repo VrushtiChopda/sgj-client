@@ -40,7 +40,7 @@ const ContactForm = () => {
 
     return (
         <section className="contact-page mb-30">
-            <div className="container">
+            {/* <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-xl-10 col-lg-11">
                         <form className="contact-form bg-light rmt-0" onSubmit={(e) => submitHandler(e)}>
@@ -124,7 +124,7 @@ const ContactForm = () => {
                         </form>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </section>
     )
 }

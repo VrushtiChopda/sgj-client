@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import MobileMenu from '../MobileMenu/MobileMenu'
-import Logo from '../../images/logo.png'
+import Logo from '../../images/logo.jpg'
 import Logo1 from '../../images/logo1.jpg'
 const Header = (props) => {
     const [menuActive, setMenuState] = useState(false);
@@ -68,12 +68,12 @@ const Header = (props) => {
                                                 <li><Link onClick={ClickHandler} to="/project-single/Architecture">Project Single</Link></li>
                                             </ul> */}
                                         </li>
-                                        <li><Link onClick={ClickHandler} to="/services">services</Link>
+                                        {/* <li><Link onClick={ClickHandler} to="/services">services</Link> */}
                                             {/* <ul>
                                                 <li><Link onClick={ClickHandler} to="/services">services</Link></li> */}
                                             {/* <li><Link onClick={ClickHandler} to="/service-single/Design-&-Planning">Services Single</Link></li> */}
                                             {/* </ul> */}
-                                        </li>
+                                        {/* </li> */}
                                         {/* <li><Link onClick={ClickHandler} to="/blog">Blog</Link>
                                             <ul>
                                                 <li><Link onClick={ClickHandler} to="/blog">Blog</Link></li>
