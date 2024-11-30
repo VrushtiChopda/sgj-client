@@ -23,10 +23,10 @@ const AllRoute = () => {
           <Route path="about" element={<AboutPage />} />
           <Route path="property" element={<ProjectPage />} />
           {/* <Route path="project-single/:slug" element={<ProjectSinglePage />} /> */}
-          <Route path="services" element={<ServicePage />} />
+          {/* <Route path="services" element={<ServicePage />} /> */}
           {/* <Route path="service-single/:slug" element={<ServiceSinglePage />} /> */}
-          <Route path='blog' element={<BlogPage />} />
-          <Route path='blog-single/:slug' element={<BlogDetails />} />
+          {/* <Route path='blog' element={<BlogPage />} /> */}
+          {/* <Route path='blog-single/:slug' element={<BlogDetails />} /> */}
           <Route path='contact' element={<ContactPage />} />
         </Routes>
       </BrowserRouter>

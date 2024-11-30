@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const PageTitle = (props) => {
-    console.log(props.about, "--------------------------")
     return (
         <section className="banner-section mt-110 rmt-70" style={{ backgroundImage: `url(${props.pageImage})` }}>
             <div className="container">

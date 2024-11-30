@@ -25,9 +25,9 @@ const partners = [
     {
         pImg: pimg5,
     },
-    {
-        pImg: pimg3,
-    },
+    // {
+    //     pImg: pimg3,
+    // },
 ]
 
 
@@ -37,14 +37,14 @@ const PartnerSection = () => {
         dots: false,
         arrows: false,
         speed: 1000,
-        slidesToShow: 5,
+        slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
         responsive: [
             {
                 breakpoint: 1500,
                 settings: {
-                    slidesToShow: 5,
+                    slidesToShow: 4,
                     slidesToScroll: 1,
                 }
             },

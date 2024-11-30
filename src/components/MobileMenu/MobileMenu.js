@@ -10,18 +10,18 @@ const menus = [
         id: 1,
         title: 'Home',
         link: '/home',
-        submenu: [
-            {
-                id: 11,
-                title: 'Home style 1',
-                link: '/home'
-            },
-            {
-                id: 12,
-                title: 'Home style 2',
-                link: '/home2'
-            }
-        ]
+        // submenu: [
+        //     {
+        //         id: 11,
+        //         title: 'Home style 1',
+        //         link: '/home'
+        //     },
+        //     {
+        //         id: 12,
+        //         title: 'Home style 2',
+        //         link: '/home2'
+        //     }
+        // ]
     },
 
     {
@@ -32,55 +32,55 @@ const menus = [
 
     {
         id: 6,
-        title: 'Projects',
+        title: 'products',
         link: '/property',
-        submenu: [
-            {
-                id: 61,
-                title: 'Project',
-                link: '/property'
-            },
-            {
-                id: 62,
-                title: 'Project Single',
-                link: '/project-single/Architecture'
-            }
-        ]
+        // submenu: [
+        //     {
+        //         id: 61,
+        //         title: 'Project',
+        //         link: '/property'
+        //     },
+        //     {
+        //         id: 62,
+        //         title: 'Project Single',
+        //         link: '/project-single/Architecture'
+        //     }
+        // ]
     },
-    {
-        id: 7,
-        title: 'Service',
-        link: '/service',
-        submenu: [
-            {
-                id: 71,
-                title: 'Service',
-                link: '/services'
-            },
-            {
-                id: 72,
-                title: 'Service Single',
-                link: '/service-single/Design-&-Planning'
-            },
-        ]
-    },
-    {
-        id: 5,
-        title: 'Blog',
-        link: '/blog',
-        submenu: [
-            {
-                id: 51,
-                title: 'Blog',
-                link: '/blog'
-            },
-            {
-                id: 52,
-                title: 'Blog single',
-                link: '/blog-single/Serverless-Stream-Based-Processing'
-            }
-        ]
-    },
+    // {
+    //     id: 7,
+    //     title: 'Service',
+    //     link: '/service',
+    //     submenu: [
+    //         {
+    //             id: 71,
+    //             title: 'Service',
+    //             link: '/services'
+    //         },
+    //         {
+    //             id: 72,
+    //             title: 'Service Single',
+    //             link: '/service-single/Design-&-Planning'
+    //         },
+    //     ]
+    // },
+    // {
+    //     id: 5,
+    //     title: 'Blog',
+    //     link: '/blog',
+    //     submenu: [
+    //         {
+    //             id: 51,
+    //             title: 'Blog',
+    //             link: '/blog'
+    //         },
+    //         {
+    //             id: 52,
+    //             title: 'Blog single',
+    //             link: '/blog-single/Serverless-Stream-Based-Processing'
+    //         }
+    //     ]
+    // },
     {
         id: 88,
         title: 'Contact',
