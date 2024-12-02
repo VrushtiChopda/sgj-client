@@ -287,7 +287,7 @@
 }
 
 .icon-bar {
-    background: #FFFFFF;
+    background: black;
     height: 2px;
     width: 30px;
     display: block;
@@ -393,6 +393,11 @@
         width: 250px;
         top: 43px;
         padding: 15px;
+    }
+
+    .header-inner {
+        background-color: transparent !important;
+        border-left: none !important;
     }
 
     .main-header .header-upper .container-fluid {
@@ -654,7 +659,7 @@
     background: #fff;
 }
 
-.main-header.s2 .header-inner{
+.main-header.s2 .header-inner {
     background: #fff;
 }
 
@@ -668,13 +673,15 @@
     color: #ca9c6a;
 }
 
-.main-header.s2 .icon-bar{
+.main-header.s2 .icon-bar {
     background: #333;
 }
-.main-header.s2 .nav-search{
+
+.main-header.s2 .nav-search {
     border-color: #dbdbdb;
 }
-.main-header.s2 .nav-search>button{
+
+.main-header.s2 .nav-search>button {
     color: #333;
 }
 

@@ -5,6 +5,7 @@ import Logo from '../../images/logo.jpg'
 import Logo1 from '../../images/logo1.jpg'
 const Header = (props) => {
     const [menuActive, setMenuState] = useState(false);
+    const [mobmenuActive, setmobMenuState] = useState(false);
     const [SearchActive, setSearchState] = useState(false);
 
     const SubmitHandler = (e) => {
@@ -42,6 +43,13 @@ const Header = (props) => {
                                 <option value="lang-2">English</option>
                             </select>
                         </div> */}
+                        <div className="navbar-header clearfix d-lg-none">
+                            <button type="button" className="navbar-toggle" onClick={() => setmobMenuState(!mobmenuActive)}>
+                                <span className="icon-bar"></span>
+                                <span className="icon-bar"></span>
+                                <span className="icon-bar"></span>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -52,7 +60,7 @@ const Header = (props) => {
                     <div className="header-inner d-flex justify-content-center">
                         <div className="nav-outer clearfix">
                             <nav className="main-menu navbar-expand-lg">
-                                <MobileMenu />
+                                <MobileMenu setmobMenuState={setmobMenuState} mobmenuActive={mobmenuActive} />
                                 <div className="navbar-collapse collapse clearfix ">
                                     <ul className="navigation clearfix ">
                                         <li ><Link onClick={ClickHandler} to="/">Home</Link>
@@ -69,10 +77,10 @@ const Header = (props) => {
                                             </ul> */}
                                         </li>
                                         {/* <li><Link onClick={ClickHandler} to="/services">services</Link> */}
-                                            {/* <ul>
+                                        {/* <ul>
                                                 <li><Link onClick={ClickHandler} to="/services">services</Link></li> */}
-                                            {/* <li><Link onClick={ClickHandler} to="/service-single/Design-&-Planning">Services Single</Link></li> */}
-                                            {/* </ul> */}
+                                        {/* <li><Link onClick={ClickHandler} to="/service-single/Design-&-Planning">Services Single</Link></li> */}
+                                        {/* </ul> */}
                                         {/* </li> */}
                                         {/* <li><Link onClick={ClickHandler} to="/blog">Blog</Link>
                                             <ul>
@@ -110,6 +118,7 @@ const Header = (props) => {
 
                 </div>
             </div>
+
             <div className={`sidebar-wrap ${menuActive ? "side-content-visible" : ""}`}>
                 <div className="form-back-drop" onClick={() => setMenuState(!menuActive)}></div>
                 <section className='hidden-bar'>

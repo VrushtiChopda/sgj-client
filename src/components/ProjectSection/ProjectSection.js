@@ -25,7 +25,7 @@ const ProjectSection = (props) => {
                                         <img src={project.pImg} alt="Apartment" />
                                     </div>
                                     <div className="apartment-content">
-                                        <img src={project.ssIcon} alt="Icon" />
+                                        {/* <img src={project.ssIcon} alt="Icon" /> */}
                                         <h3><Link onClick={ClickHandler} to={`/project-single/${project.slug}`}>{project.pTitle}</Link></h3>
                                         {/* <span>from {project.width} m2</span> */}
                                         <p>{project.des} </p>

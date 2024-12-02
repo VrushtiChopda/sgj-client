@@ -28,7 +28,7 @@ const ProjectSectionS2 = (props) => {
                                         </div>
                                         <h3><Link onClick={ClickHandler} to={`/project-single/${project.slug}`}>{project.pTitle}</Link></h3>
                                         {/* <span>from {project.width} m2</span> */}
-                                        <p>{project.des} </p>
+                                        {/* <p>{project.des} </p> */}
                                     </div>
                                 </div>
                             </div>

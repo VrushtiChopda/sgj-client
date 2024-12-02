@@ -89,10 +89,10 @@ const menus = [
 
 ]
 
-const MobileMenu = () => {
+const MobileMenu = ({ mobmenuActive, setmobMenuState }) => {
 
     const [openId, setOpenId] = useState(0);
-    const [menuActive, setMenuState] = useState(false);
+    // const [menuActive, setMenuState] = useState(false);
 
     const ClickHandler = () => {
         window.scrollTo(10, 0);
@@ -100,9 +100,9 @@ const MobileMenu = () => {
 
     return (
         <div>
-            <div className={`mobileMenu ${menuActive ? "show" : ""}`}>
+            <div className={`mobileMenu ${mobmenuActive ? "show" : ""}`}>
                 <div className="menu-close">
-                    <div className="close" onClick={() => setMenuState(!menuActive)}><i className="ti-close"></i></div>
+                    <div className="close" onClick={() => setmobMenuState(!mobmenuActive)}><i className="ti-close"></i></div>
                 </div>
 
                 <ul className="responsivemenu">
@@ -139,13 +139,7 @@ const MobileMenu = () => {
 
             </div>
 
-            <div className="navbar-header clearfix">
-                <button type="button" className="navbar-toggle" onClick={() => setMenuState(!menuActive)}>
-                    <span className="icon-bar"></span>
-                    <span className="icon-bar"></span>
-                    <span className="icon-bar"></span>
-                </button>
-            </div>
+
         </div>
     )
 }

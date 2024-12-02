@@ -9,11 +9,13 @@ import FunFact from '../../components/FunFact';
 import TeamSection from '../../components/TeamSection/TeamSection';
 import VideoSection from '../../components/VideoSection/VideoSection';
 import about from '../../images/jariThread/about.jpg'
+import about1 from '../../images/jariThread/about1.jpg'
+
 const AboutPage = () => {
     return (
         <Fragment>
             <Navbar />
-            <PageTitle pageTitle={'About Us'} pagesub={'About'} pageImage={about} />
+            <PageTitle pageTitle={'About Us'} pagesub={'About'} desktopImage={about} mobileImage={about1} />
             <ServiceSection ptClass={'pt-100'} />
             <About2 />
             {/* <FunFact fClass={'style-two pt-165 pb-125 mb-0'}/> */}
