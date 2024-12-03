@@ -1,9 +1,4 @@
 import React from 'react';
-import ContactForm from '../ContactFrom'
-import sIcon1 from '../../images/contact/icon1.png'
-import sIcon2 from '../../images/contact/icon2.png'
-import sIcon3 from '../../images/contact/icon3.png'
-
 
 const Contactpage = () => {
 
@@ -53,7 +48,7 @@ const Contactpage = () => {
                     </div>
                 </div>
             </div>
-        
+
             {/* <div className='mt-4 d-flex justify-content-center' >
                 <div className='text-white m-4' style={{ backgroundColor: '#CA9C6A' }}>
                     <div>
@@ -114,7 +109,7 @@ const Contactpage = () => {
                     </div>
                 </div>
             </div> */}
-            <ContactForm />
+            {/* <ContactForm /> */}
         </div >
     )
 

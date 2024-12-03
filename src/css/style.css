@@ -625,7 +625,7 @@ input[type="submit"]:focus {
     min-height: 600px;
     position: relative;
     height: calc(100% - 100px);
-    background: url('../images/wp/about.png') no-repeat center/cover;
+    /* background: url('../images/wp/about.png') no-repeat center/cover; */
 }
 
 .about-image:before {
@@ -710,7 +710,7 @@ input[type="submit"]:focus {
 /***************** 06. Video Section  **************** */
 /****************************************************** */
 .video-section {
-    background: url(../images/video/video-bg.png) no-repeat right 30px;
+    /* background: url(../images/video/video-bg.png) no-repeat right 30px; */
 }
 
 .video-inner {
@@ -794,13 +794,13 @@ input[type="submit"]:focus {
 /*************** 08. Rastaurant Section  ************** */
 /****************************************************** */
 .rastaurant-left {
-    background: url('../images/restaurants/left.png') no-repeat center/cover;
+    /* background: url('../images/restaurants/left.png') no-repeat center/cover; */
     min-height: 500px;
     height: 100%;
 }
 
 .rastaurant-right {
-    background: url('../images/restaurants/right.png') no-repeat center/cover;
+    /* background: url('../images/restaurants/right.png') no-repeat center/cover; */
 }
 
 .ras-content {
@@ -1126,7 +1126,7 @@ input[type="submit"]:focus {
 /****************** 11. FAQ Section  ****************** */
 /****************************************************** */
 .faq-left-image {
-    background: url('../images/faq/faq-left.png') no-repeat center/cover;
+    /* background: url('../images/faq/faq-left.png') no-repeat center/cover; */
     height: 100%;
     min-height: 500px;
 }

@@ -10,8 +10,6 @@ import pImg3 from '../../images/jariThread/i3.png'
 import pImg4 from '../../images/jariThread/i4.png'
 import pImg5 from '../../images/jariThread/i5.png'
 import pImg6 from '../../images/jariThread/i6.png'
-import CtaSection from '../CtaSection/CtaSection';
-
 
 const images = [
     pImg1,

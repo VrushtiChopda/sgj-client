@@ -1,12 +1,10 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import MobileMenu from '../MobileMenu/MobileMenu'
-import Logo from '../../images/logo.jpg'
 import Logo1 from '../../images/logo1.jpg'
 const Header = (props) => {
     const [menuActive, setMenuState] = useState(false);
     const [mobmenuActive, setmobMenuState] = useState(false);
-    const [SearchActive, setSearchState] = useState(false);
 
     const SubmitHandler = (e) => {
         e.preventDefault()
@@ -26,11 +24,11 @@ const Header = (props) => {
                         </div>
 
                         <ul className="header-info">
-                            <li>
+                            {/* <li>
                                 <i className="fa fa-map-marker"></i>
                                 <h6><span>Address:</span>
                                     219 Bedford Street Birmingham, AL 35211</h6>
-                            </li>
+                            </li> */}
                             <li>
                                 <i className="fa fa-phone"></i>
                                 <h6><span>Call Anytime:</span>

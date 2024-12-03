@@ -2,14 +2,8 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, } from "react-router-dom";
 
 import Homepage from '../HomePage/HomePage'
-import HomePage2 from '../HomePage2/HomePage2';
 import AboutPage from '../AboutPage/AboutPage';
-import ServicePage from '../ServicePage/ServicePage';
-import ServiceSinglePage from '../ServiceSinglePage/ServiceSinglePage';
 import ProjectPage from '../ProjectPage/ProjectPage';
-import ProjectSinglePage from '../ProjectSinglePage/ProjectSinglePage';
-import BlogPage from '../BlogPage/BlogPage'
-import BlogDetails from '../BlogDetails/BlogDetails'
 import ContactPage from '../ContactPage/ContactPage';
 const AllRoute = () => {
 

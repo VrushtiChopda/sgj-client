@@ -1,9 +1,6 @@
 import React from 'react'
-import Bg from '../../images/wp/wp-bg.png'
 import abimg1 from '../../images/jariThread/abImg1.jpg'
 import abimg2 from '../../images/jariThread/abImg2.jpg'
-import abimg3 from '../../images/wp/wp-3.png'
-
 const About = (props) => {
 
     return (
